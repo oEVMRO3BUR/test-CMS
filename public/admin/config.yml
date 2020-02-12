@@ -1,0 +1,38 @@
+backend:
+ name: gitlab
+ repo: coddity/blog-coddity
+ branch: CMS-blog
+
+
+media_folder: static/assets
+public_folder: /assets
+
+collections:
+  - label: "Blog"
+    name: "blog"
+    folder: "src/posts"
+    create: true
+    slug: "{{Slug}}"
+    fields:
+      - {label: "Slug", name: "Slug", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Excerpt", name: "excerpt", widget: "string"}
+      - {label: "Illustration", name: "illustration", widget: "image"}
+      - {label: "Tags", name: "tags", widget: "list", default: []}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - label: "Autheur"
+    name: "autheur"
+    folder: "src/author"
+    create: true
+    slug: "{{Slug}}"
+    identifier_field: Slug
+    fields:
+      - {label: "Slug", name: "Slug", widget: "string"}
+      - {label: "Profession", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Phrase", name: "excerpt", widget: "string"}
+      - {label: "Illustration", name: "illustration", widget: "image"}
+      - {label: "Tags", name: "tags", widget: "hidden",default: ["author"]}

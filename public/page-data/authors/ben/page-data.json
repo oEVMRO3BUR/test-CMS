@@ -1,0 +1,1 @@
+{"componentChunkName":"component---src-templates-author-js","path":"/authors/ben","webpackCompilationHash":"","result":{"data":{"articles":{"edges":[{"node":{"fields":{"slug":"/jojo"},"frontmatter":{"title":"Poke bowl","date":"10-08-2019"},"excerpt":"sqfdqsdqsd"}}],"totalCount":1},"infoAuthor":{"edges":[]}},"pageContext":{"isCreatedByStatefulCreatePages":false,"author":"Ben"}}}

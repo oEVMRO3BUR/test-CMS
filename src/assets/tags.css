@@ -1,0 +1,23 @@
+.mainContainer{
+    padding: 0rem 1rem;
+}
+
+.mainContainer h1{
+    font-size: 34px;
+}
+.link{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+
+@media (max-width: 600px)
+{
+    .mainContainer h1{
+        font-size: 28px;
+    }
+    .link{
+        font-size: 17px;
+    }
+    
+}

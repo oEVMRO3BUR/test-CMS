@@ -1,11 +1,11 @@
 backend:
- name: gitlab
- repo: coddity/blog-coddity
- branch: CMS-blog
-
+ name: github
+ repo: oEVMRO3BUR/test-CMS
 
 media_folder: static/assets
 public_folder: /assets
+publish_mode: editorial_workflow
+
 
 collections:
   - label: "Blog"

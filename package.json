@@ -55,7 +55,7 @@
     "react-search-bar": "^2.2.0",
     "rehype-react": "^3.0.3",
     "serve": "^11.0.0",
-    "sharp": "^0.22.1",
+    "sharp": "^0.30.5",
     "styled-components": "^4.2.0",
     "tls": "0.0.1",
     "window-scroll-manager": "^1.1.2"
